@@ -6,18 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>angular汇总（上） | NellyYe博客</title>
+  <title>angular汇总（下） | NellyYe博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="angular汇总（上）1、介绍AngularJS是一款由Google公司开发维护的前端MVC框架，其克服了HTML在构建应用上的诸多不足，从而降低了开发成本提升了开发效率。 1.1特点AngularJS与jQuery是有一定的区别的，jQuery更准确来说只是一个类库（类库指的是一系列函数的集合）以DOM做为驱动（核心），而AngularJS则一个框架（诸多类库的集合）以数据和逻辑做为驱动（核心">
+  <meta name="description" content="7、依赖注入 AngularJS采用模块化的方式组织代码，将一些通用逻辑封装成一个对象或函数，实现最大程度的复用，这导致了使用者和被使用者之间存在依赖关系。所谓依赖注入是指在运行时自动查找依赖关系，然后将查找到依赖传递给使用者的一种机制。  通俗的讲就是通入注入的方式解决依赖关系。常见的AngularJS内置服务有$http、$location、$timeout、$rootScope等 7.1、行">
 <meta property="og:type" content="article">
-<meta property="og:title" content="angular汇总（上）">
-<meta property="og:url" content="http://yoursite.com/2017/05/10/angular汇总(上)/index.html">
+<meta property="og:title" content="angular汇总（下）">
+<meta property="og:url" content="http://yoursite.com/2017/05/10/angular汇总（下）/index.html">
 <meta property="og:site_name" content="NellyYe博客">
-<meta property="og:description" content="angular汇总（上）1、介绍AngularJS是一款由Google公司开发维护的前端MVC框架，其克服了HTML在构建应用上的诸多不足，从而降低了开发成本提升了开发效率。 1.1特点AngularJS与jQuery是有一定的区别的，jQuery更准确来说只是一个类库（类库指的是一系列函数的集合）以DOM做为驱动（核心），而AngularJS则一个框架（诸多类库的集合）以数据和逻辑做为驱动（核心">
-<meta property="og:updated_time" content="2017-05-10T10:56:09.443Z">
+<meta property="og:description" content="7、依赖注入 AngularJS采用模块化的方式组织代码，将一些通用逻辑封装成一个对象或函数，实现最大程度的复用，这导致了使用者和被使用者之间存在依赖关系。所谓依赖注入是指在运行时自动查找依赖关系，然后将查找到依赖传递给使用者的一种机制。  通俗的讲就是通入注入的方式解决依赖关系。常见的AngularJS内置服务有$http、$location、$timeout、$rootScope等 7.1、行">
+<meta property="og:updated_time" content="2017-05-10T13:01:07.112Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="angular汇总（上）">
-<meta name="twitter:description" content="angular汇总（上）1、介绍AngularJS是一款由Google公司开发维护的前端MVC框架，其克服了HTML在构建应用上的诸多不足，从而降低了开发成本提升了开发效率。 1.1特点AngularJS与jQuery是有一定的区别的，jQuery更准确来说只是一个类库（类库指的是一系列函数的集合）以DOM做为驱动（核心），而AngularJS则一个框架（诸多类库的集合）以数据和逻辑做为驱动（核心">
+<meta name="twitter:title" content="angular汇总（下）">
+<meta name="twitter:description" content="7、依赖注入 AngularJS采用模块化的方式组织代码，将一些通用逻辑封装成一个对象或函数，实现最大程度的复用，这导致了使用者和被使用者之间存在依赖关系。所谓依赖注入是指在运行时自动查找依赖关系，然后将查找到依赖传递给使用者的一种机制。  通俗的讲就是通入注入的方式解决依赖关系。常见的AngularJS内置服务有$http、$location、$timeout、$rootScope等 7.1、行">
   
     <link rel="alternative" href="/atom.xml" title="NellyYe博客" type="application/atom+xml">
   
@@ -151,96 +151,108 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-angular汇总(上)" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-angular汇总（下）" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      angular汇总（上）
+      angular汇总（下）
     </h1>
   
 
         
-        <a href="/2017/05/10/angular汇总(上)/" class="archive-article-date">
-  	<time datetime="2017-05-10T09:20:29.104Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-10</time>
+        <a href="/2017/05/10/angular汇总（下）/" class="archive-article-date">
+  	<time datetime="2017-05-10T12:54:16.070Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-10</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="angular汇总（上）"><a href="#angular汇总（上）" class="headerlink" title="angular汇总（上）"></a>angular汇总（上）</h1><h2 id="1、介绍"><a href="#1、介绍" class="headerlink" title="1、介绍"></a>1、介绍</h2><p>AngularJS是一款由Google公司开发维护的前端MVC框架，其克服了HTML在构建应用上的诸多不足，从而降低了开发成本提升了开发效率。</p>
-<h3 id="1-1特点"><a href="#1-1特点" class="headerlink" title="1.1特点"></a>1.1特点</h3><p>AngularJS与jQuery是有一定的区别的，jQuery更准确来说只是一个类库（类库指的是一系列函数的集合）以DOM做为驱动（核心），而AngularJS则一个框架（诸多类库的集合）以数据和逻辑做为驱动（核心）。</p>
-<p>框架对开发的流程和模式做了约束，开发者遵照约束进行开发，更注重的实际的业务逻辑。</p>
-<p>AngularJS有着诸多特性，最为核心的是：模块化、双向数据绑定、语义化标签、依赖注入等。</p>
-<p>与之类似的框架还有BackBone、KnockoutJS、Vue、React等。</p>
-<h3 id="1-2、下载"><a href="#1-2、下载" class="headerlink" title="1.2、下载"></a>1.2、下载</h3><p>1、通过AngularJS官网下载，不过由于国内特殊的国情，需要翻墙才能访问。</p>
-<p>2、通过npm下载，npm install angular</p>
-<p>3、通过bower下载，bower install angular</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">npm install -g bower  安装bower</div><div class="line">bower 应用：</div><div class="line">bower install jquery        安装（下载）资源,通过#号可以指定版本号</div><div class="line">bower install jquery#1.9.1  </div><div class="line">bower uninstall jquery      卸载（删除）资源</div><div class="line">bower info  jquery      查看资源信息</div><div class="line">bower search  validate      查找资源信息</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<h3 id="1-3、MVC"><a href="#1-3、MVC" class="headerlink" title="1.3、MVC"></a>1.3、MVC</h3><p>MVC是一种开发模式，由模型（Model）、视图（View）、控制器（Controller）3部分构成，采用这种开发模式为合理组织代码提供了方便、降低了代码间的耦合度、功能结构清晰可见。</p>
-<p>模型（Model）一般用来处理数据（读取/设置），一般指操作数据库。</p>
-<p>视图（View）一般用来展示数据，比如通过HTML展示。</p>
-<p>控制器（Controller）一般用做连接模型和视图的桥梁。</p>
-<h2 id="2、模块化"><a href="#2、模块化" class="headerlink" title="2、模块化"></a>2、模块化</h2><p>使用AngularJS构建应用（App）时是以模块化（Module）的方式组织的，即将整个应用划分成若干模块，每个模块都有各自的职责，最终组合成一个整体。</p>
-<p>采用模块化的组织方式，可以最大程度的实现代码的复用，可以像搭积木一样进行开发。</p>
-<h3 id="2-1、定义应用"><a href="#2-1、定义应用" class="headerlink" title="2.1、定义应用"></a>2.1、定义应用</h3><pre><code>ng-app=&apos;App&apos;    指定应用根元素（至少一个）
-</code></pre><h3 id="2-2、定义模块"><a href="#2-2、定义模块" class="headerlink" title="2.2、定义模块"></a>2.2、定义模块</h3><pre><code>var app = angular.module(&apos;app&apos;,[])
-</code></pre><h3 id="2-3、定义控制器"><a href="#2-3、定义控制器" class="headerlink" title="2.3、定义控制器"></a>2.3、定义控制器</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">app.controller(<span class="string">'DemoCtrl'</span>,[<span class="string">'$scope'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$scope</span>)</span>&#123;</div><div class="line">    $scope.name = <span class="string">'小米'</span>;</div><div class="line">&#125;])</div></pre></td></tr></table></figure>
-<h2 id="3、指令"><a href="#3、指令" class="headerlink" title="3、指令"></a>3、指令</h2><h3 id="3-1、内置指令"><a href="#3-1、内置指令" class="headerlink" title="3.1、内置指令"></a>3.1、内置指令</h3><p>ng-app=’App’    指定应用根元素（至少一个）</p>
-<p>ng-controller   指定控制器（所在标签及其子元素属于哪个控制器）</p>
-<p>ng-show 此指令的值为布尔值，如果为true，则此指令所在标签及其所有子元素会被显示，值为false则相反</p>
-<p>ng-hide 此指令的值为布尔值，如果为true，则此指令所在标签及其所有子元素会被隐藏，值为false则相反</p>
-<p>ng-if   此指令的值为布尔值，如果为true，则此指令所在标签及其所有子元素会被创建，值为false则会删除</p>
-<p>ng-src      增强图片路径</p>
-<p>ng-href     增强地址</p>
-<p>ng-class    控制类名(值为对象，对象属性为一个真实存在的类名)<br>        对象属性值为布尔类型，当为true时，属性名会被添加<br>        值为false，不进行任何操作</p>
-<p>ng-include  引入模板</p>
-<p>ng-disabled 表单禁用</p>
-<p>ng-readonly 表单只读</p>
-<p>ng-checked  单/复选框表单选中</p>
-<p>ng-selected 下拉框表单选中</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> app = angular.module(App,[])</div><div class="line">app.controller(,[<span class="string">'$scope'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$scope</span>)</span>&#123;&#125;])</div><div class="line">ng-repeat=<span class="string">'item in starts'</span></div><div class="line">ng-repeat = <span class="string">'(key,item) in info'</span>&#123;&#123;key&#125;&#125;:&#123;&#123;item&#125;&#125;</div></pre></td></tr></table></figure>
-<h3 id="3-2、自定义指令"><a href="#3-2、自定义指令" class="headerlink" title="3.2、自定义指令"></a>3.2、自定义指令</h3><p>模块实例下有一个方法叫 directive,此方法可以自定义指令，需要2个参数1、指令名称2、回调函数</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">directive(<span class="string">'tag'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="comment">//返回一个值，为对象或者函数</span></div><div class="line">    <span class="keyword">return</span> &#123;</div><div class="line">    <span class="comment">//A 是attribute  E element  C class  M mark</span></div><div class="line">       restrict:<span class="string">'ECMA'</span>,</div><div class="line">       <span class="attr">replace</span>:<span class="literal">true</span>,</div><div class="line">       <span class="attr">template</span>:<span class="string">'&lt;h1&gt;你好&lt;/h1&gt;'</span>,</div><div class="line">       <span class="attr">templateUrl</span>:<span class="string">''</span><span class="comment">//加载外部文件</span></div><div class="line">   &#125;</div><div class="line"></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
-<h2 id="4、数据绑定"><a href="#4、数据绑定" class="headerlink" title="4、数据绑定"></a>4、数据绑定</h2><p>AngularJS是以数据做为驱动的MVC框架，所有模型（Model）里的数据经由控制器（Controller）展示到视图（View）中。</p>
-<p>所谓数据绑定指的就是将模型（Model）中的数据与相应的视图（View）进行关联，分为单向绑定和双向绑定两种方式。</p>
-<h3 id="4-1、单向绑定"><a href="#4-1、单向绑定" class="headerlink" title="4.1、单向绑定"></a>4.1、单向绑定</h3><p>单向数据绑定是指将模型（Model）数据，按着写好的视图（View）模板生成HTML标签，然后追加到DOM中显示，如学过的artTemplate 模板引擎的工作方式。</p>
-<h3 id="4-2、双向绑定"><a href="#4-2、双向绑定" class="headerlink" title="4.2、双向绑定"></a>4.2、双向绑定</h3><p>在实现数据绑定时有两个角色，分别是数据和页面<br>数据 到 页面上（单向） 页面 到 数据上（单向）<br>使用指令：ng-bind    实现模型 到 视图   <code>{{}}</code>是ng-bind的简写形式</p>
-<p>ng-bind=’data.name’</p>
-<p>ng-clock 解决闪烁（<code>display:none</code>）</p>
-<p>ng-model 视图–&gt;模型</p>
-<p>ng-init 初始化模型</p>
-<p>ng-click    鼠标点击</p>
-<p>ng-mouseover    鼠标移入</p>
-<p>ng-keyup    按键输入</p>
-<p>ng-swith</p>
-<p>ng-swith-when</p>
-<h3 id="4-3、相关指令"><a href="#4-3、相关指令" class="headerlink" title="4.3、相关指令"></a>4.3、相关指令</h3><p>在AngularJS中通过<code>{{}}</code>和ng-bind指令来实现模型（Model）数据向视图模板（View）的绑定，模型数据通过一个内置服务$scope来提供，这个$scope是一个空对象，通过为这个对象添加属性或者方法便可以在相应的视图（View）模板里被访问。</p>
-<p>注：<code>{{}}</code>是ng-bind的简写形式，其区别在于通过<code>{{}}</code>绑定数据时会有“闪烁”现象，添加ng-cloak也可以解决“闪烁”现象。</p>
-<p>通过为表单元素添加ng-model指令实现视图（View）模板向模型（Model）数据的绑定。</p>
-<p>通过ng-init可以初始化模型（Model）也就是$scope。</p>
-<p>AngularJS对事件也进行了扩展，无需显式的获取DOM元素便可以添加事件，易用性变的更强。通过在原有事件名称基础上添加ng-做为前缀，然后以属性的形式添加到相应的HTML标签上即可。如ng-click、ng-dblclick、ng-blur等。</p>
-<p>通过ng-repeat可以将数组或对象数据迭代到视图模板中，ng-switch、on、ng-switch-when可以对数据进行筛选。</p>
-<h2 id="5、作用域"><a href="#5、作用域" class="headerlink" title="5、作用域"></a>5、作用域</h2><p>通常AngularJS中应用（App）是由若干个视图（View）组合成而成的，而视图（View）又都是HTML元素，并且HTML元素是可以互相嵌套的，另一方面视图都隶属于某个控制器（Controller），进而控制器之间也必然会产生嵌套关系。</p>
-<p>每个控制器（Controller）又都对应一个模型（Model）也就是$scope对象，不同层级控制器（Controller）下的$scope便产生了作用域。</p>
-<h3 id="5-1、根作用域"><a href="#5-1、根作用域" class="headerlink" title="5.1、根作用域"></a>5.1、根作用域</h3><p>一个AngularJS的应用（App）在启动时会自动创建一个根作用域$rootScope，这个根作用域在整个应用范围（ng-app所在标签以内）都是可以被访问到的。</p>
-<h3 id="5-2、子作用域"><a href="#5-2、子作用域" class="headerlink" title="5.2、子作用域"></a>5.2、子作用域</h3><p>通过ng-controller指令可以创建一个子作用域，新建的作用域可以访问其父作用域的数据。</p>
-<h2 id="6、过滤器"><a href="#6、过滤器" class="headerlink" title="6、过滤器"></a>6、过滤器</h2><p>在AngularJS中使用过滤器格式化展示数据， 在<code>{{}}</code>中使用“|”来调用过滤器，使用“:”传递参数</p>
-<h3 id="6-1、内置过滤器"><a href="#6-1、内置过滤器" class="headerlink" title="6.1、内置过滤器"></a>6.1、内置过滤器</h3><pre><code>currency[货币]    将数值格式化为货币格式
-date        日期格式化
-filter      在给定数组中选择满足条件的一个子集，并返回一个新数组
-json        将Javascrip对象转成JSON字符串
-limitTo     取出字符串或数组的前（正数）几位或后（负数）几位
-lowercase   将文本转换成小写格式
-uppercase   将文本转换成大写格式
-number          数字格式化，可控制小位位数
-orderBy     对数组进行排序，第2个参数是布尔值可控制方向(正序或倒序)
-</code></pre><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">dt</span>&gt;</span>AngularJS过滤器<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>当前时间为: &#123;&#123;now|date:'yyyy-MM-dd hh:mm:ss'&#125;&#125;<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>商品价格: &#123;&#123;price|currency:'￥':4&#125;&#125;<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>个人介绍: &#123;&#123;intro|uppercase&#125;&#125;<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>个人介绍: &#123;&#123;intro2|lowercase&#125;&#125;<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>取出数组某几个单元: &#123;&#123;courses|limitTo:-3&#125;&#125;<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>截取字符串: &#123;&#123;intro|limitTo:-7&#125;&#125;<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>处理数字: &#123;&#123;num|number:3&#125;&#125;<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>处理成json: &#123;&#123;obj|json&#125;&#125;<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>排序: &#123;&#123;students|orderBy: 'score':false&#125;&#125;<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>筛选: &#123;&#123;students|filter: &#123;score: 96&#125; &#125;&#125;<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></div></pre></td></tr></table></figure>
-<h3 id="6-2、自定义过滤器"><a href="#6-2、自定义过滤器" class="headerlink" title="6.2、自定义过滤器"></a>6.2、自定义过滤器</h3><p>除了使用AngularJS内建过滤器外，还可以根业务需要自定义过滤器，通过模块对象实例提供的filter方法自定义过滤器。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">App.filter(<span class="string">'demo'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">            <span class="built_in">console</span>.log(<span class="string">'我被执行了'</span>);</div><div class="line">            <span class="comment">//必需要有一个返回值（函数）</span></div><div class="line">            <span class="comment">//下面返回的函数就是过滤器</span></div><div class="line">            <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params">arg</span>)</span>&#123;</div><div class="line">                <span class="built_in">console</span>.log(<span class="string">'过滤器被执行了'</span>);</div><div class="line">                <span class="built_in">console</span>.log(arg);</div><div class="line"></div><div class="line">                <span class="keyword">return</span> <span class="string">'你好'</span>+arg;</div><div class="line">            &#125;;</div><div class="line">        &#125;)</div></pre></td></tr></table></figure></p>
+        <h2 id="7、依赖注入"><a href="#7、依赖注入" class="headerlink" title="7、依赖注入"></a>7、依赖注入</h2><ul>
+<li>AngularJS采用模块化的方式组织代码，将一些通用逻辑封装成一个对象或函数，实现最大程度的复用，这导致了使用者和被使用者之间存在依赖关系。<br>所谓依赖注入是指在运行时自动查找依赖关系，然后将查找到依赖传递给使用者的一种机制。</li>
+</ul>
+<p>通俗的讲就是通入注入的方式解决依赖关系。<br>常见的AngularJS内置服务有$http、$location、$timeout、$rootScope等</p>
+<h3 id="7-1、行内注入"><a href="#7-1、行内注入" class="headerlink" title="7.1、行内注入"></a>7.1、行内注入</h3><p>以数组形式明确声明依赖，数组元素都是包含依赖名称的字符串，数组最后一个元素是依赖注入的目标函数。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">app.controller(<span class="string">'DemoCtrl'</span>,[<span class="string">'$http'</span>,<span class="string">'$rootScope'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$http,$rootScope</span>)</span>&#123;</div><div class="line">        $http(&#123;</div><div class="line">    	<span class="attr">url</span>:<span class="string">''</span>,<span class="comment">//请求地址</span></div><div class="line">    	method:<span class="string">''</span>,<span class="comment">//请求方式</span></div><div class="line">    	data:&#123;&#125;,<span class="comment">//当请求方式为post时，使用data传递</span></div><div class="line">    	params:&#123;&#125;,<span class="comment">//请求方式为get时，使用params传递</span></div><div class="line">    	headers:&#123;</div><div class="line">    		<span class="string">'Content-Type'</span>:<span class="string">'application/x-www-form-urlencoded'</span></div><div class="line">    		&#125;</div><div class="line">    	&#125;).then(<span class="function"><span class="keyword">function</span>(<span class="params">info</span>)</span>&#123;</div><div class="line">    </div><div class="line">        &#125;).catch(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        </div><div class="line">        &#125;)</div><div class="line">&#125;])</div></pre></td></tr></table></figure>
+<h3 id="7-2推断式注入"><a href="#7-2推断式注入" class="headerlink" title="7.2推断式注入"></a>7.2推断式注入</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">app.controller(<span class="string">'DemoCtrl'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$http,$rootScope</span>)</span>&#123;</div><div class="line">    $http(&#123;</div><div class="line">        <span class="attr">method</span>:<span class="string">'POST'</span>,</div><div class="line">        <span class="attr">url</span>:<span class="string">'example.php'</span>,</div><div class="line">        <span class="attr">data</span>:&#123;&#125;,</div><div class="line">        <span class="attr">header</span>:&#123;</div><div class="line">            </div><div class="line">        &#125;</div><div class="line">    &#125;).then(<span class="function"><span class="keyword">function</span>(<span class="params">info</span>)</span>&#123;</div><div class="line">        </div><div class="line">    &#125;).catch(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;)</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<p>这种方式会带来一个问题，当代码经过压缩后函数的参数被压缩，这样便会造成依赖无法找到。</p>
+<h2 id="8、服务"><a href="#8、服务" class="headerlink" title="8、服务"></a>8、服务</h2><p>服务是一个对象或函数，对外提供特定的功能。</p>
+<h3 id="8-1、内置服务"><a href="#8-1、内置服务" class="headerlink" title="8.1、内置服务"></a>8.1、内置服务</h3><p>1、$log打印调试信息<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$log<span class="comment">//可以输出调试信息，是一个对象</span></div><div class="line">$log.error(<span class="string">'代码错误了'</span>);</div><div class="line">$log.debug(<span class="string">'调试信息'</span>);</div><div class="line">$log.info(<span class="string">'普通信息'</span>);</div><div class="line">$log.log(<span class="string">'正常打印'</span>);</div><div class="line">$log.warn(<span class="string">'警告'</span>);</div></pre></td></tr></table></figure></p>
+<p>2、$timeout&amp;$interval对原生Javascript中的setTimeout和setInterval进行了封装。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">app.controller(<span class="string">'DemoCtrl'</span>,[<span class="string">'$scope'</span>,<span class="string">'$timeout'</span>,<span class="string">'interval'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$scope,$timeout,$interval</span>)</span>&#123;</div><div class="line">    $timeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        $scope.time = <span class="keyword">new</span> <span class="built_in">Date</span>();</div><div class="line">    &#125;,<span class="number">2000</span>);</div><div class="line">    $interval(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        $scope.time = <span class="keyword">new</span> <span class="built_in">Date</span>();</div><div class="line">    &#125;,<span class="number">1000</span>)</div><div class="line">&#125;])</div></pre></td></tr></table></figure>
+<p>3、$filter在控制器中格式化数据。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">app.controller(<span class="string">'DemoCtrl'</span>,[<span class="string">'$scope'</span>,<span class="string">'$filter'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$scope,$filter</span>)</span>&#123;</div><div class="line"><span class="comment">//原始信息</span></div><div class="line">    $scope.content = <span class="string">'my name is nelly'</span>;</div><div class="line">    <span class="comment">//创建过滤器</span></div><div class="line">    <span class="keyword">var</span> uppercase = $filter(<span class="string">'uppercase'</span>);</div><div class="line">    <span class="comment">//格式化数据</span></div><div class="line">    $scope.content = uppercase($scope.content);</div><div class="line">&#125;])</div></pre></td></tr></table></figure>
+<p>4、$http用于向服务端发起异步请求。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">app.controller(<span class="string">'DemoCtrl'</span>,[<span class="string">'$scope'</span>,<span class="string">'$http'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$scope,$http</span>)</span>&#123;</div><div class="line">    $http(&#123;</div><div class="line">        <span class="attr">method</span>:<span class="string">'POST'</span>,</div><div class="line">        <span class="attr">url</span>:<span class="string">'example.php'</span>,</div><div class="line">        <span class="attr">data</span>:&#123;&#125;,</div><div class="line">        <span class="attr">headers</span>:&#123;</div><div class="line">            <span class="string">'Content-Type'</span>:<span class="string">'application/x-www-form-urlencoded'</span></div><div class="line">        &#125;</div><div class="line">    &#125;).success(<span class="function"><span class="keyword">function</span>(<span class="params">data,status,headers,config</span>)</span>&#123;&#125;)</div><div class="line">    .error(<span class="function"><span class="keyword">function</span>(<span class="params">data,status,headers,config</span>)</span>&#123;&#125;)</div><div class="line">&#125;])</div></pre></td></tr></table></figure>
+<p>同时还支持多种快捷方式如$http.get()、$http.post()、$http.jsonp。</p>
+<h3 id="8-2、自定义服务"><a href="#8-2、自定义服务" class="headerlink" title="8.2、自定义服务"></a>8.2、自定义服务</h3><p>通过上面例子得知，所谓服务是将一些通用性的功能逻辑进行封装方便使用，AngularJS允许将自定义服务。</p>
+<p>1、factory方法</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//显示时间的demo</span></div><div class="line">app.controller(<span class="string">'showTime'</span>,[<span class="string">'filter'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$filter</span>)</span>&#123;</div><div class="line">    <span class="keyword">return</span> &#123;</div><div class="line">        <span class="attr">now</span>:fucntion()&#123;</div><div class="line">            <span class="keyword">return</span> $filter(<span class="string">'date'</span>)(<span class="keyword">new</span> <span class="built_in">Date</span>,<span class="string">'yyyy-MM-dd'</span>);</div><div class="line">        &#125;,</div><div class="line">        <span class="attr">time</span>:<span class="function"><span class="keyword">function</span>(<span class="params">format</span>)</span>&#123;</div><div class="line">            <span class="keyword">return</span> $filter(<span class="string">'date'</span>)(<span class="keyword">new</span> <span class="built_in">Date</span>,format);</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;])</div><div class="line">app.controller(<span class="string">'DemoCtrl2'</span>,[<span class="string">'$scope'</span>,<span class="string">'$showTime'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$scope,$showTime</span>)</span>&#123;</div><div class="line">    $scope.now = showTime.now();</div><div class="line">    $scope.time = showTime.time(<span class="string">'hh-mm-ss'</span>);</div><div class="line">&#125;])</div></pre></td></tr></table></figure>
+<p>2、service方法</p>
+<p>不再使用return将服务返回，而是使用this</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">app.service(<span class="string">'showTime'</span>,[<span class="string">'$filter'</span>,<span class="string">'$filter'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$filter</span>)</span>&#123;</div><div class="line">    <span class="keyword">this</span>.now = $filter(<span class="string">'date'</span>)(<span class="keyword">new</span> date,<span class="string">'yyyy-MM-dd'</span>);</div><div class="line">    <span class="keyword">this</span>.format = <span class="function"><span class="keyword">function</span>(<span class="params">format</span>)</span>&#123;</div><div class="line">        <span class="keyword">return</span> $filter(<span class="string">'date'</span>)(<span class="keyword">new</span> date,format);</div><div class="line">    &#125;</div><div class="line">&#125;]);</div><div class="line">app.controller(<span class="string">'DemoCtrl'</span>,[<span class="string">'$scope'</span>,<span class="string">'$showTime'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$scope,$showTime</span>)</span>&#123;</div><div class="line">    <span class="built_in">console</span>.log(showTime.now);</div><div class="line">    $scope.now = showTime.now;</div><div class="line">    $scope.time = showTime.format(<span class="string">'hh-mm-ss'</span>);</div><div class="line">&#125;])</div></pre></td></tr></table></figure>
+<p>在介绍服务时曾提到服务本质就是一个对象或函数，所以自定义服务就是要返回一个对象或函数以供使用。</p>
+<h2 id="9、模块加载"><a href="#9、模块加载" class="headerlink" title="9、模块加载"></a>9、模块加载</h2><p>AngularJS模块可以在被加载和执行之前对其自身进行配置。我们可以在应用的加载阶段配置不同的逻辑。</p>
+<h3 id="9-1、配置块"><a href="#9-1、配置块" class="headerlink" title="9.1、配置块"></a>9.1、配置块</h3><p>1、通过config方法实现对模块的配置，AngularJS中的服务大部分都对应一个“provider”，用来执行与对应服务相同的功能或对其进行配置。</p>
+<p>比如$log、$http、$location都是内置服务，相对应的“provider”分别是$logProvider、$httpProvider、$locationPorvider。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">app.config([<span class="string">'$logProvider'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$logProvider</span>)</span>&#123;</div><div class="line"><span class="comment">//$logProvider 提供了方法用于具体的配置</span></div><div class="line">    $logProvider.debugEnabled(<span class="literal">false</span>);</div><div class="line">&#125;])</div><div class="line">app.controller(<span class="string">'DemoCtrl'</span>,[<span class="string">'$log'</span>,<span class="string">'$scope'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$log,$scope</span>)</span>&#123;</div><div class="line"><span class="comment">//默认只有debug方法</span></div><div class="line">    $log.debug(<span class="string">'调试信息'</span>);</div><div class="line">    $scope.info = <span class="string">'my name is nelly'</span>;</div><div class="line">&#125;])</div><div class="line"><span class="comment">//对$filter服务进行配置</span></div><div class="line">app.controller(<span class="string">'$filterProvider'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$filterProvider</span>)</span>&#123;</div><div class="line"><span class="comment">//$filterProvider 提供了方法用于具体的配置</span></div><div class="line">    $filterProvider.register(<span class="string">'capitalize'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params">input</span>)</span>&#123;</div><div class="line">            <span class="keyword">return</span> input[<span class="number">0</span>].toUpperCase()+input.slice(<span class="number">1</span>);</div><div class="line">        &#125;</div><div class="line">    &#125;)</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<h3 id="9-2运行块"><a href="#9-2运行块" class="headerlink" title="9.2运行块"></a>9.2运行块</h3><p>服务也是模块形式存在的对且对外提供特定功能，前面学习中都是将服务做为依赖注入进去的，然后再进行调用，除了这种方式外我们也可以直接运行相应的服务模块，AngularJS提供了run方法来实现。</p>
+<p>运行App.run()</p>
+<p>可以直接运行某种服务</p>
+<p>需要一个参数    为数组</p>
+<p>通过$rootScope服务可以直接操作根作用域</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">app.run([<span class="string">'$log'</span>,<span class="string">'$http'</span>,<span class="string">'$rootScope'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$log,$http,$rootScope</span>)</span>&#123;</div><div class="line">    $http(&#123;</div><div class="line">        <span class="attr">method</span>:<span class="string">'post'</span>,</div><div class="line">        <span class="attr">url</span>:<span class="string">'example.php'</span></div><div class="line">    &#125;).then(<span class="function"><span class="keyword">function</span>(<span class="params">info</span>)</span>&#123;</div><div class="line">        <span class="built_in">console</span>.log(info);</div><div class="line">    &#125;).catch(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;)</div><div class="line">    <span class="comment">//通过$rootScope可以直接操作根作用域</span></div><div class="line">    $rootScope.name = <span class="string">'yeye'</span>;</div><div class="line">&#125;]);</div><div class="line">app.controller(<span class="string">'ParentCtrl'</span>,[<span class="string">'$scope'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$scope</span>)</span>&#123;</div><div class="line">    $scope.name = <span class="string">'father'</span>;</div><div class="line">&#125;]);</div><div class="line">app.controller(<span class="string">'ChildCtrl'</span>,[<span class="string">'$scope'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">$scope</span>)</span>&#123;</div><div class="line">    $scope.name = <span class="string">'son'</span>;</div><div class="line">&#125;])</div></pre></td></tr></table></figure>
+<p>不但如此，run方法还是最先执行的，利用这个特点我们可以将一些需要优先执行的功能通过run方法来运行，比如验证用户是否登录，未登录则不允许进行任何其它操作。</p>
+<h2 id="10、路由"><a href="#10、路由" class="headerlink" title="10、路由"></a>10、路由</h2><p>一个应用是由若个视图组合而成的，根据不同的业务逻辑展示给用户不同的视图，路由则是实现这一功能的关键。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//参数不影响路由</span></div><div class="line">app.config([<span class="string">'$routeProvider'</span><span class="function"><span class="keyword">function</span>(<span class="params">$routeProvider</span>)</span>&#123;</div><div class="line">    $routeProvider.when(<span class="string">'./register/:abc/:vdf/name'</span>,&#123;</div><div class="line">    <span class="comment">//执行的逻辑</span></div><div class="line">    <span class="comment">//文件形式的模板</span></div><div class="line">    <span class="comment">//字符串形式的模板</span></div><div class="line">    <span class="comment">//template:&lt;h1&gt;haha&lt;/h1&gt;</span></div><div class="line">        templateUrl:<span class="string">'./register.html'</span>,</div><div class="line">        <span class="attr">controller</span>:<span class="string">'RegisterCtrl'</span></div><div class="line">    &#125;).when(<span class="string">'./login'</span>,&#123;</div><div class="line">    <span class="comment">//执行的逻辑</span></div><div class="line">        templateUrl:<span class="string">'./login.html'</span>,</div><div class="line">        <span class="attr">controller</span>:<span class="string">'LoginCtrl'</span></div><div class="line">    &#125;).when(<span class="string">'./list/page/:page'</span>,&#123;</div><div class="line">        <span class="attr">templateUrl</span>:<span class="string">'./list.html'</span>,</div><div class="line">        <span class="attr">controller</span>:<span class="string">'ListCtrl'</span></div><div class="line">    &#125;).otherwise(&#123;</div><div class="line">        <span class="attr">redirectTo</span>:<span class="string">'/login'</span></div><div class="line">    &#125;)</div><div class="line">&#125;])</div></pre></td></tr></table></figure>
+<p>路由 指的是 URL 地址与程序的映射关系</p>
+<p><a href="http://bxg.com/login" target="_blank" rel="external">http://bxg.com/login</a></p>
+<p>以上的是后端路由，地址与后端程序的一种映射</p>
+<p>angularJS也要学路由，这里的路由也是地址与程序的映射关系</p>
+<p>只不过前端路由是URL 地址与前端程序的映射关系</p>
+<p>IScroll</p>
+<p>在App中既有原生的iOS或者Android代码也会有html+css的网页<br>为了保证App的一致性</p>
+<h3 id="10-1SPA"><a href="#10-1SPA" class="headerlink" title="10.1SPA"></a>10.1SPA</h3><p>SPA（Single Page Application）指的是通单一页面展示所有功能，通过Ajax动态获取数据然后进行实时渲染，结合CSS3动画模仿原生App交互，然后再进行打包（使用工具把Web应用包一个壳，这个壳本质上是浏览器）变成一个“原生”应用。<br>在PC端也有广泛的应用，通常情况下使用Ajax异步请求数据，然后实现内容局部刷新，局部刷新的本质是动态生成DOM，新生成的DOM元素并没有真实存在于文档中，所以当再次刷新页面时新添加的DOM元素会“丢失”，通过单页面应可以很好的解决这个问题。</p>
+<h3 id="10-2路由"><a href="#10-2路由" class="headerlink" title="10.2路由"></a>10.2路由</h3><p>在后端开发中通过URL地址可以实现页面（视图）的切换，但是AngularJS是一个纯前端MVC框架，在开发单页面应用时，所有功能都在同一页面完成，所以无需切换URL地址（即不允许产生跳转），但Web应用中又经常通过链接（a标签）来更新页面（视图），当点击链接时还要阻止其向服务器发起请求，通过锚点（页内跳转）可以实现这一点。</p>
+<p>实现单页面应用需要具备：</p>
+<p>a、只有一页面</p>
+<p>b、链接使用锚点</p>
+<h4 id="10-2-1、路由参数"><a href="#10-2-1、路由参数" class="headerlink" title="10.2.1、路由参数"></a>10.2.1、路由参数</h4><p>1、提供两个方法匹配路由，分别是when和otherwise，when方法需要两个参数，otherwise方法做为when方法的补充只需要一个参数，其中when方法可以被多次调用。</p>
+<p>2、第1个参数是一个字符串，代表当前URL中的hash值。</p>
+<p>3、第2个参数是一个对象，配置当前路由的参数，如视图、控制器等。</p>
+<pre><code>a、template 字符串形式的视图模板
+b、templateUrl 引入外部视图模板
+c、controller 视图模板所属的控制器
+d、redirectTo跳转到其它路由
+</code></pre><p>4、获取参数，在控制中注入$routeParams可以获取传递的参数</p>
+<h3 id="单页面与前端路由"><a href="#单页面与前端路由" class="headerlink" title="单页面与前端路由"></a>单页面与前端路由</h3><p>为了保证点击链接，页面不发生跳转（因为跳转以后就不是单页了）<br>使用锚链接 </p>
+<p> history Api </p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//onhashchange 哈希</span></div><div class="line"><span class="built_in">window</span>.onhashchange = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="built_in">console</span>.log(location.hash.slice(<span class="number">1</span>));</div><div class="line">    <span class="comment">//发送一个XMLHttpRequest请求</span></div><div class="line">    <span class="comment">//请求一些数据过来，通过DOM操作方法</span></div><div class="line">    <span class="comment">//添加到页面中</span></div><div class="line">    </div><div class="line">    <span class="keyword">var</span> xhr = <span class="keyword">new</span> XMLHttpRequest();</div><div class="line">    <span class="keyword">var</span> hash = location.hash.slice(<span class="number">1</span>);</div><div class="line">    <span class="keyword">var</span> path;</div><div class="line">    <span class="keyword">switch</span>(hash)&#123;</div><div class="line">        <span class="attr">case</span>:<span class="string">'login'</span>,</div><div class="line">        <span class="attr">path</span>:<span class="string">'./login.html'</span></div><div class="line">        <span class="keyword">break</span>;</div><div class="line">        <span class="keyword">case</span>:<span class="string">'register'</span>,</div><div class="line">        <span class="attr">path</span>:<span class="string">'./register.html'</span></div><div class="line">        <span class="keyword">break</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="11、bower"><a href="#11、bower" class="headerlink" title="11、bower"></a>11、bower</h2><p>基于NodeJS的一个静态资源管理工具，由twitter公司开发维，解决大型网站中静态资源的依赖问题。</p>
+<pre><code>1、依赖NodeJS环境和git工具。
+2、npm install -g bower安装bower
+3、bower search 查找资源信息
+4、bower install  安装（下载）资源，通过#号可以指定版本号
+5、bower info 查看资源信息
+6、bower uninstall 卸载（删除）资源
+</code></pre><p>bower 应用：</p>
+<p>bower install jquery<br>安装（下载）资源,通过#号可以指定版本号</p>
+<p>bower install jquery#1.9.1</p>
+<p>bower uninstall jquery<br>卸载（删除）资源</p>
+<p>bower info  jquery            查看资源信息</p>
+<p>bower search  validate        查找资源信息</p>
+<h2 id="SEO（搜索引擎优化）"><a href="#SEO（搜索引擎优化）" class="headerlink" title="SEO（搜索引擎优化）"></a>SEO（搜索引擎优化）</h2><p>搜索引擎其实是一个自动程序，这个程序可以24小时</p>
+<p>自动访问所有域名定义的网站</p>
+<p>1、H1~H6标签    标题</p>
+<p>2、meta标签 描述、</p>
+<p>存到自己的数据库中</p>
+<p>如果将来用户输入了数据，就可以进快速访问</p>
+<p>如果某些网站内容是通过ajax异步获取<br>但是目前单页面应用比较受追捧，此某些搜索引擎也开始提升功能，使其能够获取ajax异步的数据    比如Google</p>
+<p>但是有个前提通过地址上某些符号来分辨哪些网站是ajax异步</p>
+<p>#！</p>
 
       
 
@@ -320,7 +332,7 @@ orderBy     对数组进行排序，第2个参数是布尔值可控制方向(正
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/05/10/angular汇总(上)/" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/05/10/angular汇总（下）/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -334,18 +346,9 @@ orderBy     对数组进行排序，第2个参数是布尔值可控制方向(正
   
 <nav id="article-nav">
   
-    <a href="/2017/05/10/angular汇总（下）/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          angular汇总（下）
-        
-      </div>
-    </a>
   
-  
-    <a href="/2017/05/10/node中的模块/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">node中的模块</div>
+    <a href="/2017/05/10/angular汇总(上)/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">angular汇总（上）</div>
       <i class="icon-circle-right"></i>
     </a>
   
